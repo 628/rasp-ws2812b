@@ -11,6 +11,7 @@ pub struct LedPanel {
 }
 
 /// Stores color as a tuple of (Red, Green, Blue)
+#[derive(Copy, Clone)]
 pub struct ColorRGB (pub u8, pub u8, pub u8);
 
 impl LedPanel {
